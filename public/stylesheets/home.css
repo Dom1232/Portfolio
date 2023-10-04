@@ -1,0 +1,19 @@
+/*
+File: home.css
+Student: Brendan James
+StudentID: 301257167
+Date: October 3rd, 2023
+*/
+
+
+/*Format the content specific to home.ejs*/
+.welcome {
+  width: 500px;
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}

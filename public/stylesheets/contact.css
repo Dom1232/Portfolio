@@ -1,0 +1,13 @@
+/*
+File: contact.css
+Student: Brendan James
+StudentID: 301257167
+Date: October 3rd, 2023
+*/
+
+/*Format the content specific to contact.ejs*/
+.card {
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+}

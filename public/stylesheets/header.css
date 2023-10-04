@@ -1,0 +1,27 @@
+/*
+File: header.css
+Student: Brendan James
+StudentID: 301257167
+Date: October 3rd, 2023
+*/
+
+/*Arrange the navigation buttons*/
+.navbar-nav 
+{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*Fix and style the header for what bootstrap doesn't cover*/
+header {
+    position: fixed;
+    width: 980px;
+    top: 0;
+    left: auto;
+    right: auto;
+    background-color: rgb(201, 97, 99);
+    padding: 16px;
+    
+}
+  

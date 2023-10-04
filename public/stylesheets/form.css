@@ -1,0 +1,55 @@
+/*
+File: form.css
+Student: Brendan James
+StudentID: 301257167
+Date: October 3rd, 2023
+*/
+
+/*Format the content specific to the form in contact.ejs*/
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 25px;
+}
+
+.form p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 16px;
+}
+  
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+/*Format form button*/
+button {
+    background-color: #ff2a2a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #a0352a;
+}

@@ -1,0 +1,35 @@
+/*
+File: services.css
+Student: Brendan James
+StudentID: 301257167
+Date: October 3rd, 2023
+*/
+
+/*Resize Images*/
+.resize-img {
+    width: 300px;
+}
+
+/*Get rid of usual list dots*/
+ul {
+    list-style: none;
+}
+
+/*Space out the different list entries*/
+.pad {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+/*Format the content specific to services.ejs*/
+.services {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding-top: 25px;
+}

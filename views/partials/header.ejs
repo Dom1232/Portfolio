@@ -1,0 +1,47 @@
+<!-- 
+  File: header.ejs
+  Student: Brendan James
+  StudentID: 301257167
+  Date: October 3rd, 2023
+-->
+
+<!--Link Header stylesheet-->
+<head>
+  <link rel="stylesheet" href="/stylesheets/header.css">
+</head>
+<header>
+  <!--Define used bootstrap classes-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!--Add logo-->
+        <a class="navbar-brand">
+            <img src="/images/logo.png" alt="Your Logo">
+        </a>
+        <!--Create Dropdown list for navbar when screen isn't wide enough. Functionality is currently iffy, need to look into bootstrap classes to fix this in the future-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Format and space navbar links-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav justify-content-between">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>

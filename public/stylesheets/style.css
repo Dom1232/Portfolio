@@ -1,0 +1,25 @@
+/*
+File: style.css
+Student: Brendan James
+StudentID: 301257167
+Date: October 3rd, 2023
+*/
+
+/*Style the default body for all pages*/
+body {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color:rgba(255, 165, 165, 0.701);
+  padding-top: 100px;
+  padding-bottom: 50px;
+  overflow-y: scroll;
+}
+
+/*Turn links blue*/
+a {
+  color: #00B7FF;
+}
+
